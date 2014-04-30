@@ -10,3 +10,6 @@ To run:
 
 Where filename is the name of the file.
 
+Files:
+ * hello_kernel.cu : Just call an empty kernel 
+
