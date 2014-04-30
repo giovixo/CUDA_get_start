@@ -8,5 +8,5 @@ To run:
 
 ./filename
 
-Where <flename> is the name of the file.
+Where filename is the name of the file.
 
