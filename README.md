@@ -12,4 +12,6 @@ Where filename is the name of the file.
 
 Files:
  * hello_kernel.cu : Just call an empty kernel 
-
+ * simple_sum.cu   : Simple sum
+ * array_sum.cu    : Sum two arrays
+ * gpu_info.cu     : Print the GPU infos
