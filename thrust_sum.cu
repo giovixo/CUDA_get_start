@@ -3,10 +3,17 @@
 #include <thrust/generate.h>
 #include <thrust/reduce.h>
 #include <thrust/functional.h>
+#include <thrust/version.h>
 #include <cstdlib>
 
 int main(void)
 {
+	// Trust Version
+	int major = THRUST_MAJOR_VERSION;
+    int minor = THRUST_MINOR_VERSION;
+
+    std::cout << "Thrust v" << major << "." << minor << std::endl;
+
   // generate random data on the host
   thrust::host_vector<int> h_vec(100);
   thrust::generate(h_vec.begin(), h_vec.end(), rand);
