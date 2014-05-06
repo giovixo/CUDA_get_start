@@ -1,5 +1,8 @@
 This repository contains some basic example of CUDA C programs
 
+References:
+ * The book: CUDA BY EXAMPLE
+
 To compile from the command line, type:
 
 nvcc -o filename filename.cu
