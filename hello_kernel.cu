@@ -13,9 +13,7 @@
 // sulla GPU
 __global__ void dark(void)
 {
-	// Oggi non mi va di fare nulla. E in effetti non faccio niente.
-	// Nota che il printf non e' consen su un kernel
-	//printf("Hola!\n");
+	// Questo è un kernel vuoto. Può comunque essere invocato dal main.
 }
 
 int main(void)
